@@ -1,0 +1,110 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.outline
+{
+    outline: 2px solid black;
+    margin: 1% 25%;
+    padding: 2%;
+}
+
+.heading h1
+{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.personal_del
+{
+    margin-bottom: 15px;
+}
+
+.objective
+{
+    margin-bottom: 15px;
+}
+
+.headstyle
+{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+#c_name
+{
+    font-weight: bold;
+}
+
+.point
+{
+    margin: 15px 0px;
+    padding: 0px 15px;
+} 
+
+.point li
+{
+    list-style-type: disc;
+}
+
+.Education_Del table
+{
+    border: 2px solid black;
+    text-align: center;
+    height: 200px;
+    width: 700px;
+    margin-bottom: 15px;
+}
+
+.projects
+{
+    margin-bottom: 15px;
+}
+
+.projects dl dt
+{
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.projects dl dd
+{
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
+.projects p
+{
+    padding: 0px 10px;
+}
+
+.Pd table
+{
+    text-align: left;
+    height: 20px;
+    width: 70x;
+    margin-bottom: 15px;
+}
+
+.space
+{
+    padding: 0px 15px;
+}
+
+.other
+{
+    margin-top: 15px;
+    border: 2px dashed black;
+}
+
+.other p
+{
+    text-align: center;
+    font-weight: bold;
+    margin: 5px;
+}
+

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="logic.js"></script>
+    </head>
+    <body>
+        <div class="alignment">
+            <table border="1px">
+                <tr>
+                    <th class="blank" colspan="11"><button class="na"></button></th>
+                </tr>
+                <tr class="display">
+                    <td class="blank"><button class="na"></button></td>
+                    <td colspan="10" dir="rtl" id="maindis">0</td>
+                </tr>
+                <tr>
+                    <td><button>mod</button></td>
+                    <td colspan="5">
+                        <div class="rb">
+                            <input type="radio" id="deg" name="deg">
+                            <label for="deg">deg</label>
+                        </div>
+                        <div class="rb">
+                            <input type="radio" id="rad" name="rad">
+                            <label for="rad">rad</label>
+                        </div>
+                    </td>
+                    <td><button>MC</button></td>
+                    <td><button>MR</button></td>
+                    <td><button>MS</button></td>
+                    <td><button>M+</button></td>
+                    <td><button>M-</button></td>
+                </tr>
+                <tr>
+                    <td><button>sinh</button></td>
+                    <td><button>cosh</button></td>
+                    <td><button>tanh</button></td>
+                    <td><button>Exp</button></td>
+                    <td><button>(</button></td>
+                    <td><button>)</button></td>
+                    <td colspan="2"><button class="styred">←</button></td>
+                    <td><button class="styred">C</button></td>
+                    <td><button class="styred">+/-</button></td>
+                    <td><button>√</button></td>
+                </tr>
+                <tr>
+                    <td><button>sinh<sup>-1</sup></button></td>
+                    <td><button>consh<sup>-1</sup></button></td>
+                    <td><button>tanh<sup>-1</sup></button></td>
+                    <td><button>log<sub>2</sub>x</button></td>
+                    <td><button>ln</button></td>
+                    <td><button>log</button></td>
+                    <td><button id="seven">7</button></td>
+                    <td><button>8</button></td>
+                    <td><button>9</button></td>
+                    <td><button>/</button></td>
+                    <td><button>%</button></td>
+                </tr>
+                <tr>
+                    <td><button>Pi</button></td>
+                    <td><button>e</button></td>
+                    <td><button>n!</button></td>
+                    <td><button>log<sub>y</sub>x</button></td>
+                    <td><button>e<sup>x</sup></button></td>
+                    <td><button>10<sup>x</sup></button></td>
+                    <td><button>4</button></td>
+                    <td><button>5</button></td>
+                    <td><button>6</button></td>
+                    <td><button>*</button></td>
+                    <td><button>1/x</button></td>
+                </tr>
+                <tr>
+                    <td><button>sin</button></td>
+                    <td><button>cos</button></td>
+                    <td><button>tan</button></td>
+                    <td><button>x<sup>y</sup></button></td>
+                    <td><button>x<sup>3</sup></button></td>
+                    <td><button>x<sup>2</sup></button></td>
+                    <td><button>1</button></td>
+                    <td><button>2</button></td>
+                    <td><button>3</button></td>
+                    <td><button>-</button></td>
+                    <td rowspan="2"><button class="equal">=</button></td>
+                </tr>
+                <tr>
+                    <td><button>sin<sup>-1</sup></button></td>
+                    <td><button>cos<sup>-1</sup></button></td>
+                    <td><button>tan<sup>-1</sup></button></td>
+                    <td><button>y<sub>√</sub></button></td>
+                    <td><button>3<sub>√</sub></button></td>
+                    <td><button>|x|</button></td>
+                    <td colspan="2"><button>0</button></td>
+                    <td><button>.</button></td>
+                    <td><button>+</button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

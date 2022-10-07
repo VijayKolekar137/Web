@@ -16,7 +16,7 @@
                     <td colspan="10" dir="rtl" id="maindis">0</td>
                 </tr>
                 <tr>
-                    <td><button>mod</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("%")'>mod</button></td>
                     <td colspan="5">
                         <div class="rb">
                             <input type="radio" id="deg" name="deg">
@@ -27,73 +27,73 @@
                             <label for="rad">rad</label>
                         </div>
                     </td>
-                    <td><button>MC</button></td>
-                    <td><button>MR</button></td>
-                    <td><button>MS</button></td>
-                    <td><button>M+</button></td>
-                    <td><button>M-</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=mc()'>MC</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=mr()'>MR</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=ms()'>MS</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=mp()'>M+</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=mm()'>M-</button></td>
                 </tr>
                 <tr>
-                    <td><button>sinh</button></td>
-                    <td><button>cosh</button></td>
-                    <td><button>tanh</button></td>
-                    <td><button>Exp</button></td>
-                    <td><button>(</button></td>
-                    <td><button>)</button></td>
-                    <td colspan="2"><button class="styred">←</button></td>
-                    <td><button class="styred">C</button></td>
-                    <td><button class="styred">+/-</button></td>
-                    <td><button>√</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("sinehy")'>sinh</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("cosinehy")'>cosh</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("tangenthy")'>tanh</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=exp()'>Exp</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("(")'>(</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit(")")'>)</button></td>
+                    <td colspan="2"><button class="styred" onclick='getElementById("h1").innnerHTML=bsp()'>←</button></td>
+                    <td><button class="styred" onclick='getElementById("h1").innnerHTML=clear()'>C</button></td>
+                    <td><button class="styred" onclick='getElementById("h1").innnerHTML=maths("negpos")'>+/-</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("sqrt")'>√</button></td>
                 </tr>
                 <tr>
-                    <td><button>sinh<sup>-1</sup></button></td>
-                    <td><button>consh<sup>-1</sup></button></td>
-                    <td><button>tanh<sup>-1</sup></button></td>
-                    <td><button>log<sub>2</sub>x</button></td>
-                    <td><button>ln</button></td>
-                    <td><button>log</button></td>
-                    <td><button id="seven">7</button></td>
-                    <td><button>8</button></td>
-                    <td><button>9</button></td>
-                    <td><button>/</button></td>
-                    <td><button>%</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>sinh<sup>-1</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>consh<sup>-1</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>tanh<sup>-1</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>log<sub>2</sub>x</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("ln")'>ln</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>log</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("7")'>7</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("8")'>8</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("9")'>9</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=operators("/")'>/</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=percent()'>%</button></td>
                 </tr>
                 <tr>
-                    <td><button>Pi</button></td>
-                    <td><button>e</button></td>
-                    <td><button>n!</button></td>
-                    <td><button>log<sub>y</sub>x</button></td>
-                    <td><button>e<sup>x</sup></button></td>
-                    <td><button>10<sup>x</sup></button></td>
-                    <td><button>4</button></td>
-                    <td><button>5</button></td>
-                    <td><button>6</button></td>
-                    <td><button>*</button></td>
-                    <td><button>1/x</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=PE("PI")'>π</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=PE("E")'>e</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("fact")'>n!</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>log<sub>y</sub>x</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>e<sup>x</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>10<sup>x</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("4")'>4</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("5")'>5</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("6")'>6</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=operators("*")'>*</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>1/x</button></td>
                 </tr>
                 <tr>
-                    <td><button>sin</button></td>
-                    <td><button>cos</button></td>
-                    <td><button>tan</button></td>
-                    <td><button>x<sup>y</sup></button></td>
-                    <td><button>x<sup>3</sup></button></td>
-                    <td><button>x<sup>2</sup></button></td>
-                    <td><button>1</button></td>
-                    <td><button>2</button></td>
-                    <td><button>3</button></td>
-                    <td><button>-</button></td>
-                    <td rowspan="2"><button class="equal">=</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("sine")'>sin</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("cosine")'>cos</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("tangent")'>tan</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=power("^")'>x<sup>y</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("cube")'>x<sup>3</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("sqr")'>x<sup>2</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("1")'>1</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("2")'>2</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=digit("3")'>3</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=operators("-")'>-</button></td>
+                    <td rowspan="2"><button class="equal" onclick='getElementById("h1").innnerHTML=equl()'>=</button></td>
                 </tr>
                 <tr>
-                    <td><button>sin<sup>-1</sup></button></td>
-                    <td><button>cos<sup>-1</sup></button></td>
-                    <td><button>tan<sup>-1</sup></button></td>
-                    <td><button>y<sub>√</sub></button></td>
-                    <td><button>3<sub>√</sub></button></td>
-                    <td><button>|x|</button></td>
-                    <td colspan="2"><button>0</button></td>
-                    <td><button>.</button></td>
-                    <td><button>+</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>sin<sup>-1</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>cos<sup>-1</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>tan<sup>-1</sup></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>y<sub>√</sub></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=maths("cubert")'>3<sub>√</sub></button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=mod()'>|x|</button></td>
+                    <td colspan="2"><button onclick='getElementById("h1").innnerHTML=digit("0")'>0</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=dot()'>.</button></td>
+                    <td><button onclick='getElementById("h1").innnerHTML=operators("+")'>+</button></td>
                 </tr>
             </table>
         </div>

@@ -13,89 +13,263 @@
                 </tr>
                 <tr class="display">
                     <td class="blank"><button class="na"></button></td>
-                    <td colspan="10" dir="rtl" id="maindis">0</td>
+                    <td colspan="10">
+                        <div class="maindis">
+                            <input type="text" id="maindis" dir="ltr">
+                        </div>
+                    </td>
                 </tr>
                 <tr>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("%")'>mod</button></td>
+                    <td><button>mod</button></td>
                     <td colspan="5">
                         <div class="rb">
-                            <input type="radio" id="deg" name="deg">
+                            <input type="radio" id="deg" name="degrad">
                             <label for="deg">deg</label>
-                        </div>
-                        <div class="rb">
-                            <input type="radio" id="rad" name="rad">
+            
+                            <input type="radio" id="rad" name="degrad">
                             <label for="rad">rad</label>
                         </div>
                     </td>
-                    <td><button onclick='getElementById("h1").innnerHTML=mc()'>MC</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=mr()'>MR</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=ms()'>MS</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=mp()'>M+</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=mm()'>M-</button></td>
+                    <td><button class="btn">MC</button></td>
+                    <td><button class="btn">MR</button></td>
+                    <td><button class="btn">MS</button></td>
+                    <td><button class="btn">M+</button></td>
+                    <td><button class="btn">M-</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("sinehy")'>sinh</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("cosinehy")'>cosh</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("tangenthy")'>tanh</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=exp()'>Exp</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("(")'>(</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit(")")'>)</button></td>
-                    <td colspan="2"><button class="styred" onclick='getElementById("h1").innnerHTML=bsp()'>←</button></td>
-                    <td><button class="styred" onclick='getElementById("h1").innnerHTML=clear()'>C</button></td>
-                    <td><button class="styred" onclick='getElementById("h1").innnerHTML=maths("negpos")'>+/-</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("sqrt")'>√</button></td>
+                    <td><button onclick="sinh()">sinh</button></td>
+                    <td><button onclick="cosh()">cosh</button></td>
+                    <td><button onclick="tanh()">tanh</button></td>
+                    <td><button onclick="exp()">Exp</button></td>
+                    <td><button class="btn">(</button></td>
+                    <td><button class="btn">)</button></td>
+                    <td colspan="2"><button onclick="backspace()" class="styred">←</button></td>
+                    <td><button onclick="maindis.value=''" class="styred">C</button></td>
+                    <td><button onclick="sign()" class="styred">+/-</button></td>
+                    <td><button onclick="sqrt()">√</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>sinh<sup>-1</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>consh<sup>-1</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>tanh<sup>-1</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>log<sub>2</sub>x</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("ln")'>ln</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>log</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("7")'>7</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("8")'>8</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("9")'>9</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=operators("/")'>/</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=percent()'>%</button></td>
+                    <td><button onclick="sinhinr()">sinh<sup>-1</sup></button></td>
+                    <td><button onclick="coshinr()">cosh<sup>-1</sup></button></td>
+                    <td><button onclick="tanhinr()">tanh<sup>-1</sup></button></td>
+                    <td><button onclick="log2()">log<sub>2</sub>x</button></td>
+                    <td><button onload="log()">ln</button></td>
+                    <td><button onclick="log()">log</button></td>
+                    <td><button class="btn">7</button></td>
+                    <td><button class="btn">8</button></td>
+                    <td><button class="btn">9</button></td>
+                    <td><button class="btn">/</button></td>
+                    <td><button class="btn">%</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick='getElementById("h1").innnerHTML=PE("PI")'>π</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=PE("E")'>e</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("fact")'>n!</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>log<sub>y</sub>x</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>e<sup>x</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>10<sup>x</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("4")'>4</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("5")'>5</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("6")'>6</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=operators("*")'>*</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>1/x</button></td>
+                    <td><button onclick = "pi()">π</button></td>
+                    <td><button onclick="e()">e</button></td>
+                    <td><button onclick="fact()">n!</button></td>
+                    <td><button class="btn">log<sub>y</sub>x</button></td>
+                    <td><button class="btn">e<sup>x</sup></button></td>
+                    <td><button onclick="tenspow()">10<sup>x</sup></button></td>
+                    <td><button class="btn">4</button></td>
+                    <td><button class="btn">5</button></td>
+                    <td><button class="btn">6</button></td>
+                    <td><button class="btn">*</button></td>
+                    <td><button onclick="inverse()">1/x</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("sine")'>sin</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("cosine")'>cos</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("tangent")'>tan</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=power("^")'>x<sup>y</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("cube")'>x<sup>3</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("sqr")'>x<sup>2</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("1")'>1</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("2")'>2</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=digit("3")'>3</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=operators("-")'>-</button></td>
-                    <td rowspan="2"><button class="equal" onclick='getElementById("h1").innnerHTML=equl()'>=</button></td>
+                    <td><button onclick="sin()">sin</button></td>
+                    <td><button onclick="cos()">cos</button></td>
+                    <td><button onclick="tan()">tan</button></td>
+                    <td><button class="btn">x<sup>y</sup></button></td>
+                    <td><button onclick="cube()">x<sup>3</sup></button></td>
+                    <td><button onclick="sqr()">x<sup>2</sup></button></td>
+                    <td><button class="btn">1</button></td>
+                    <td><button class="btn">2</button></td>
+                    <td><button class="btn">3</button></td>
+                    <td><button class="btn">-</button></td>
+                    <td rowspan="2"><button onclick="maindis.value=eval(maindis.value)" class="equal">=</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>sin<sup>-1</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>cos<sup>-1</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>tan<sup>-1</sup></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("")'>y<sub>√</sub></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=maths("cubert")'>3<sub>√</sub></button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=mod()'>|x|</button></td>
-                    <td colspan="2"><button onclick='getElementById("h1").innnerHTML=digit("0")'>0</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=dot()'>.</button></td>
-                    <td><button onclick='getElementById("h1").innnerHTML=operators("+")'>+</button></td>
+                    <td><button onclick="sininr()">sin<sup>-1</sup></button></td>
+                    <td><button onclick="cosinr()">cos<sup>-1</sup></button></td>
+                    <td><button onclick="taninr()">tan<sup>-1</sup></button></td>
+                    <td><button class="btn">y<sub>√</sub></button></td>
+                    <td><button onclick="cbrt()">3<sub>√</sub></button></td>
+                    <td><button class="btn">|x|</button></td>
+                    <td colspan="2"><button class="btn">0</button></td>
+                    <td><button class="btn">.</button></td>
+                    <td><button class="btn">+</button></td>
                 </tr>
             </table>
         </div>
     </body>
+    <script>
+        var maindis = document.querySelector('#maindis');
+        var btn = document.querySelectorAll('.btn');
+
+        for (item of btn)
+        {
+            item.addEventListener('click',(e)=>{
+                btntext = e.target.innerText;
+                maindis.value += btntext;
+            })
+        }
+
+        // First row functions
+
+        // Second row functions
+
+        function sinh()
+        {
+            maindis.value = Math.tanh(maindis.value);
+        }
+
+        function cosh()
+        {
+            maindis.value = Math.cosh(maindis.value);
+        }
+
+        function tanh()
+        {
+            maindis.value = Math.tanh(maindis.value);
+        }
+
+        function exp()
+        {
+            maindis.value = Math.exp(maindis.value);
+        }
+
+        function backspace()
+        {
+            maindis.value = maindis.value.substr(0,maindis.value.length-1);
+        }
+
+        function sign()
+        {
+            maindis.value = Math.sign(maindis.value);
+        }
+
+        function sqrt()
+        {
+            maindis.value = Math.sqrt(maindis.value);
+        }
+
+        // Third row functions
+
+        function sininr()
+        {
+            maindis.value = Math.asin(maindis.value)
+        }
+
+        function cosinr()
+        {
+            maindis.value = Math.acos(maindis.value)
+        }
+
+        function taninr()
+        {
+            maindis.value = Math.atan(maindis.value)
+        }
+
+        function log2()
+        {
+            maindis.value = Math.log2(maindis.value);
+        }
+
+        function log()
+        {
+            maindis.value = Math.log(maindis.value);
+        }
+
+        // Fourth row functions
+
+        function pi()
+        {
+            maindis.value = 3.14159265359;
+        }
+        function e()
+        {
+            maindis.value = 2.1828182846;
+        }
+
+        function fact()
+        {
+            var i, num, f;
+            f = 1;
+            num = maindis.value;
+
+            for(i=1;i<=num;i++)
+            {
+                f = f * i;
+            }
+
+            i = i - 1;
+            
+            maindis.value = f;
+        }
+
+        function tenspow()
+        {
+            maindis.value = Math.pow(10,maindis.value);
+        }
+
+        function inverse()
+        {
+            maindis.value = eval(1/(maindis.value));
+        }
+
+
+
+        // Fifth row functions
+        
+        function sin()
+        {
+            maindis.value = Math.sin(maindis.value);
+        }
+
+        function cos()
+        {
+            maindis.value = Math.cos(maindis.value);
+        }
+
+        function tan()
+        {
+            maindis.value = Math.tan(maindis.value);
+        }
+
+        function cube()
+        {
+            maindis.value = Math.pow(maindis.value,3);
+        }
+
+        function sqr()
+        {
+            maindis.value = Math.pow(maindis.value,2);
+        }
+
+        // Sixth row function
+
+        function sinhinr()
+        {
+            maindis.value = Math.asinh(maindis.value);
+        }
+
+        function coshinr()
+        {
+            maindis.value = Math.acosh(maindis.value);
+        }
+
+        function tanhinr()
+        {
+            maindis.value = Math.atanh(maindis.value);
+        }
+
+        function cbrt()
+        {
+            maindis.value = Math.cbrt(maindis.value);
+        }
+
+
+        //Remaining Functions : MC, MR, MS, M+, M-, logyx, ex, x^y, y's root, |x|, 1/x
+
+
+    </script>
 </html>

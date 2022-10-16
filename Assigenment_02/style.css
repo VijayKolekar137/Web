@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar css */
+
+.container
+{
+    clear: both;
+    overflow: auto;
+    background-color: gray;
+}
+
+.container img
+{
+    margin: 15px;
+}
+
+nav
+{
+    float: right;
+}
+
+ul li
+{
+    margin: 15px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+/* middle section css */
+
+section .mainbg
+{
+    background :url("https://picsum.photos/870/200/300?grayscale&blur=2") no-repeat;
+    background-position: center;
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(238, 177, 155);
+}
+
+section .mainbg .contents
+{
+    text-align: center;
+    padding-top: 30vh;
+}
+
+section .mainbg .contents h1
+{
+    padding: 10px;
+}
+
+section .mainbg .contents button
+{
+    margin: 1vh 0vh;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+    font: 800;
+    cursor: pointer;
+}
+
+/* four para css */
+
+section .fourpara .opara 
+{
+    padding: 25px;
+    background-color: gray;
+}
+
+section .fourpara .middlepara .para
+{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    background-color: rgb(163, 105, 82);
+}
+

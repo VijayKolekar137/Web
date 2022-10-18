@@ -10,11 +10,6 @@
 
 body
 {
-    /* background-color: #00FA9A; */
-    /* background-image: linear-gradient( 179.7deg,  rgba(197,214,227,1) 2.9%, rgba(144,175,202,1) 97.1% ); */
-/* 
-    background-image: linear-gradient( 103.3deg,  rgba(252,225,208,1) 30%, rgba(255,173,214,1) 55.7%, rgba(162,186,245,1) 81.8% );
-    background-repeat: no-repeat; */
     background-color: #2f2fa2;
 }
 
@@ -43,6 +38,11 @@ body
     font-size: 25px;
 }
 
+.headnav li:hover
+{
+    background-color: #f64c72;
+}
+
 .headnav li a
 {
     color: rgb(250, 244, 244);
@@ -50,6 +50,7 @@ body
     font-size: large;
     margin: 0px 40px;
 }
+
 
 #logoimg
 {
@@ -107,12 +108,15 @@ body
     border: 2px solid black;
     height: 40%;
     width: 60%;
+    margin-top: 5px;
+    border-radius: 47px;
 }
 
 #mainimg img
 {
     width: 100%;
     height: 100%;
+    border-radius: 45px;
 }
 
 .contentbox h3
@@ -128,24 +132,20 @@ body
     background-color: transparent;
 }
 
-.contentbox .contleft .events
-{
-
-}
-
-
 #subimg
 {
     height: 300px;
     width: 300px;
-    margin: 25px;
+    margin: 45px;
     border: 2px solid black;
+    border-radius: 47px;
 }
 
 #subimg img
 {
     height: 100%;
     width: 100%;;
+    border-radius: 45px;
 }
 
 .contentbox .contleft .quotes
@@ -163,6 +163,7 @@ body
 
 .events table
 {
+    border-color: 1px white;
     border-collapse: collapse;
     width: 90%;
     height: 20px;
@@ -188,25 +189,31 @@ body
     color: #242582;
 }
 
-.personaldel .subdel
-{
+/* Styling of right content box */
 
+.personaldel table
+{
+    height: 100%;
+    width: 100%;
 }
 
-.personaldel .subdel .delhead
+.personaldel table th
 {
-    display: inline-block;
-    background-color: #99738e;
-    font-size: larger;
-    padding: 5px 80px;
+    color: #242582;
+    background-color: rgb(255, 244, 244);
+    text-align: left;
+    width: 100px;
+    margin-right: 5px;
 }
 
-.personaldel .subdel .details
+.personaldel table td
 {
-    display: inline;
-    margin-left: 55px;
-    color: rgb(250, 244, 244);
+    color: rgb(255, 244, 244);
+    text-align: left;
+    height: 50px;
+    border-bottom: 2px solid gray;
 }
+
 
 /* For gap between the table row*/
 

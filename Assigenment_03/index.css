@@ -3,18 +3,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: #fff;
+}
+
+body
+{
+    background-color: rgb(27, 35, 46);
 }
 
 .img
 {
     height: 100%;
     width: 100%;
-    background-color: blue;
 }
 
 .homepage
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: 100%;
     width: 100%;
 }
@@ -23,41 +28,55 @@
 
 .nav
 {
-    border: 2px solid green;
+    background-color: rgb(156, 0, 23);
+    /* s */
+    display: table;
+    margin : 0 auto;
+    width: 100vw;
+    margin-bottom: 2%;
 }
 
 .nav ul
 {
-    border: 2px solid yellow;
-    margin: 1% 1%;
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    margin-left: 12px;
 }
 
 .nav ul li
 {
-    border: 2px solid black;
-    display: inline;
+    /* border: 1px solid violet; */
+    display: inline-block;
     list-style: none;
+    font-size: 20px;
+    padding: 3vh 8vw;
 }
 
 .nav ul li a
 {
+    color: #fff;
     text-decoration: none;
-    color: black;
 }
 
-/* Styling of haading */
+
+
+
+/* Styling of heading */
 
 .mainhead
 {
-    border: 2px solid black;
-    margin-top: 2%;
+    /* border: 2px solid black; */
 }
 
 .mainhead .mainimg
 {
+    background-image: url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: inline-block;
-    border: 2px solid yellow;
-    height: 300px;
+    /* border: 2px solid yellow; */
+    height: 50vh;
     width: 70%;
 }
 
@@ -71,10 +90,26 @@
 
 .mainhead .tacober .tacobeitem
 {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-bottom: 10px;
-    height: 48%;
+    height: 78%;
     text-align: center;
+}
+
+.mainhead .tacober #tacos
+{
+    background-image: url("https://images.unsplash.com/photo-1627564803215-ad55bad5c5ea?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mainhead .tacober #beer
+{
+    background-image: url("https://images.unsplash.com/photo-1615332579037-3c44b3660b53?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGJlZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Styling of menu items */
@@ -82,31 +117,75 @@
 .homepage .menuitems
 {
     margin-top: 2%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-bottom: 2%;
 }
 
 .homepage .menuitems .items 
 {
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: inline-block;
     width: 18%;
-    height: 150px;
+    height: 420px;
     margin: 0px 16px;
     padding: 0px 15px;
 }
 
 .homepage .menuitems .items .itemhead
 {
-    margin: 10% 0% 0% 0%;
+    margin: 20% 0% 0% 0%;
     text-align: center;
 }
 
 .homepage .menuitems .items .itemdis
 {
-    border: 2px solid red;
-    margin-top: 10%;
+    /* border: 2px solid red; */
+    margin-top: 30%;
 }
+
+.homepage .menuitems #itemtacos
+{
+    background-color: aqua;
+    background-image: url("https://plus.unsplash.com/premium_photo-1664391890333-b6708e34b021?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGFjb3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homepage .menuitems #itembeer
+{
+    background-color: aliceblue;
+    background-image: url("https://images.unsplash.com/photo-1618183479302-1e0aa382c36b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGJlZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homepage .menuitems #itemwine
+{
+    background-color: blue;
+    background-image: url("https://images.unsplash.com/photo-1630369160812-26c7604cbd8c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fHdpbmV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homepage .menuitems #itempizza
+{
+    background-image: url("https://images.unsplash.com/photo-1628840042765-356cda07504e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBpenphfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homepage .menuitems #itemburger
+{
+    background-image: url("https://images.unsplash.com/photo-1632203171982-cc0df6e9ceb4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=828&q=80");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 
 /* styling of displayitem */
 
@@ -148,24 +227,31 @@
 .homepage .instantgames .fooditembox
 {
     display: inline-block;
-    border: 2px solid red;
-    width: 25vw;
-    height: 25vh;
+    /* border: 2px solid red; */
+    width: 30vw;
+    height: 40vh;
     margin: 1% 1%;
 }
 
-/* .homepage .instantgames .fooditembox img
+.homepage .instantgames .fooditembox img
 {
     height: 100%;
     width: 100%;
     background-color: greenyellow;
-} */
+}
+
+.homepage .instantgames .fooditembox img:hover
+{
+    cursor: pointer;
+}
+
+/* Styling of footer */
 
 .homepage .footer
 {
-    border: 2px solid yellow;
-    background-color: gray;
-    columns: #fff;
+    /* border: 2px solid yellow; */
+    background-color: #000;
+    color: #fff;
     width: 100%;
     padding: 1% 10%;
 }
@@ -174,11 +260,11 @@
 {
     display: inline-block;
     height: 20vh;
-
 }
 
 .homepage .footer .footermenu li
 {
+    color: #fff;
     list-style: none;
     margin: 20px 0px;
     font-size: larger;
@@ -188,15 +274,20 @@
 .homepage .footer .footermenu li a
 {
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 
 .homepage .footer .footerimg
 {
-    border: 2px solid blue;
     width: 30vw;
     height: 20vh;
     float: right;
+}
+
+.homepage .footer .footerimg img
+{
+    height: 100%;
+    width: 100%;
 }
 
 

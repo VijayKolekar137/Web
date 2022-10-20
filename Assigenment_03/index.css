@@ -129,18 +129,22 @@ body
     height: 420px;
     margin: 0px 16px;
     padding: 0px 15px;
+    transition: transform 0.9s;
+    border-radius: 10px;
 }
 
 .homepage .menuitems .items .itemhead
 {
     margin: 20% 0% 0% 0%;
     text-align: center;
+    /* opacity: 0; */
 }
 
 .homepage .menuitems .items .itemdis
 {
     /* border: 2px solid red; */
     margin-top: 30%;
+    opacity: 0;
 }
 
 .homepage .menuitems #itemtacos
@@ -184,6 +188,14 @@ body
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.homepage .menuitems .items:hover
+{
+    cursor: pointer;
+    transform: scale(0.95);
+    box-shadow: 5px 5px 5px 5px #fff;
+    opacity: 1;
 }
 
 
@@ -237,12 +249,16 @@ body
 {
     height: 100%;
     width: 100%;
+    border-radius: 10px;
     background-color: greenyellow;
+    transition: transform .5s;
 }
 
 .homepage .instantgames .fooditembox img:hover
 {
     cursor: pointer;
+    transform: scale(0.9);
+    box-shadow: 5px 5px 5px 5px rgb(156, 0, 23);
 }
 
 /* Styling of footer */

@@ -1,0 +1,175 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* styling of header */
+
+.header
+{
+    border: 5px solid red;
+    width: 100%;
+}
+
+.header .top
+{
+    /* border: 5px solid black; */
+    margin: 4% 6% 4% 10%;
+}
+
+.header .top .mainheading
+{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    margin-right: 35%;
+}
+
+.header .top .mainheading p
+{
+    font-size: 4.5rem;
+}
+
+.header .top .menubar
+{
+    /* border: 2px solid green; */
+    display: inline-block;
+}
+
+.header .top .menubar p
+{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.header .top .menubar ul li
+{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-right: 6rem;
+}
+
+.header .top .menubar ul li a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.header .somedis
+{
+    font-size: 2rem;
+    font-weight: bold;
+    /* border: 2px solid brown; */
+    margin-top: 80px;
+    padding: 0rem 18rem;
+    /* margin-bottom: 4%; */
+}
+
+.header .registrationbtn
+{
+    /* border: 5px solid yellow; */
+    display: flex;
+    justify-content: center;
+}
+
+.header .registrationbtn button
+{
+    font-size: 20px;
+    font-weight: bold;
+    width: 20rem;
+    height: 4rem;
+    margin: 5% 0%;
+}
+
+
+/* styling of main section */
+
+.middelsection
+{
+    margin-top: 2%;
+    border: 5px solid yellow;
+    margin: 0% 5%;
+}
+
+.middelsection .items
+{
+    border: 2px solid green;
+    display: inline-block;
+    width: 30%;
+    height: 60%;
+    margin: 0% 1.5%;
+}
+
+.middelsection .items h2
+{
+    margin-bottom: 3%;
+}
+
+.middelsection .items .imgbox
+{
+    border: 2px solid rebeccapurple;
+    width: 100%;
+    height: 25rem;
+}
+
+.middelsection .items img
+{
+    height: 100%;
+    width: 100%;
+}
+
+.middelsection .items .subhead
+{
+    font-size: 1.5rem;
+    margin: 2% 0%;
+}
+
+.middelsection .items .content
+{
+    font-size: 1.5em;
+}
+
+/* styling of footer */
+
+.footer
+{
+    border: 5px solid black;
+    width: 100%;
+    height: 15rem;
+    margin-top: 5%;
+}
+
+.footer .footerhead
+{
+    border: 5px solid green;
+    display: inline-block;
+    margin-top: 7rem;
+}
+
+.footer .menubar
+{
+    border: 5px solid rebeccapurple;
+    float: right;
+    margin-top: 7rem;
+}
+
+.footer .menubar ul li
+{
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    margin-right: 6rem;
+}
+
+.footer .menubar ul li a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+}
+

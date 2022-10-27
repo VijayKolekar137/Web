@@ -2,12 +2,16 @@
 <html>
     <head>
         <title>Sample Html</title>
-        <script src="./17_nested_function.js"></script>
+        <script src="./22_onmouseover_and_onmouseout.js"></script>
     </head>
     <body>
         <p>Click Me</p>
+        <p>Bring your mouse inside the division to see the result:</p>
+        <div onmouseover="over()" onmouseout="out()">
+            <h2>This is inside the division</h2>
+        </div>
         <form action="">
-            <input type="button" onclick="sFunc()" value="Function Call">
+            <input type="button" onclick="sayHello()" value="Function Call">
         </form>
     </body>
 </html>

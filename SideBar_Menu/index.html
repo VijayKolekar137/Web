@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>SideMenu Bar</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+    </head>
+    <body>
+        <div class="navigation">
+            <div class="menuToggle"></div>
+        </div>
+        <script>
+            let menuToggle = document.querySelector('.menuToggle');
+
+            let navigation = document.querySelector('.navigation');
+
+
+            menuToggle.onclick = function(){
+                navigation.classList.toggle('active');
+            }
+        </script>
+    </body>
+</html>

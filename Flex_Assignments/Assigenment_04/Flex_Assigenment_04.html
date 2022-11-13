@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assigenment 03</title>
+    </head>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* styling of header */
+
+        header
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: rgb(110, 155, 194);
+            color: #fff;
+        }
+
+        /* styling of navigation bar */
+
+        #navigation
+        {
+            /* border: 2px solid green; */
+            background-color: rgb(32, 190, 190);
+        }
+
+        li
+        {
+            margin: 5px;
+            /* border: 1px solid red; */
+            padding: 5px 50px;
+            background-color: rgb(123, 231, 195);
+        }
+
+        #navigation> ul
+        {
+            /* border: 2px solid black; */
+            display: flex;
+            list-style-type: none;
+            padding-inline-start: 0;
+            justify-content: flex-end;
+            margin-block: 0;
+        }
+
+        /* Styling of container */
+
+        #container
+        {
+            /* border: 2px solid yellow; */
+            width: 100%;
+            display: flex;
+        }
+
+        /* Styling of sidebar */
+
+        #container> #sidebar
+        {
+            /* border: 2px solid blue; */
+            flex-grow: 1;
+            background-color: rgb(120, 120, 212);
+        }
+
+        #container> #sidebar> ul
+        {
+            list-style-type: none;
+            margin-block: 0;
+            padding-inline-start: 0;
+            display: flex;
+            flex-direction: column;
+            margin: 15px;
+        }
+
+        #container> #sidebar> ul> li
+        {
+            text-align: center;
+            align-items: center;
+        }
+
+        /* Styling of contentbox */
+
+        #container> #contentbox
+        {
+            /* border: 2px solid red; */
+            width: 100%;
+            display: flex;
+            background-color: beige;
+        }
+
+        #container> #contentbox> .productcat
+        {
+            /* border: 2px solid yellow; */
+            margin: 5px;
+            flex-grow: 1;
+        }
+
+        #container> #contentbox> .productcat p
+        {
+            text-align:center;
+        }
+
+        #container> #contentbox> .productcat> .productborder
+        {
+            /* border: 2px solid green; */
+            display: flex;
+            flex-direction: column;
+        }
+
+        #container> #contentbox> .productcat> .productborder > .product
+        {
+            /* border: 2px solid black; */
+            margin: 5px;
+            flex-direction: column;
+            height: 380px;
+            background-color: blueviolet;
+        }
+
+    </style>
+    <body>
+        <header>
+            <p>Header Here</p>
+        </header>
+        <nav id="navigation">
+            <ul>
+                <li>Link 1</li>
+                <li>Link 2</li>
+                <li>Link 3</li>
+                <li>Link 4</li>
+            </ul>
+        </nav>
+        <section id="container">
+            <div id="sidebar">
+                <ul>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+            </div>
+
+            <div id="contentbox">
+                <div class="productcat">
+                    <p>Product 1</p>
+                    <div class="productborder">
+                        <div class="product">
+
+                        </div>
+                        <div class="product">
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productcat">
+                    <p>Product 2</p>
+                    <div class="productborder">
+                        <div class="product">
+
+                        </div>
+                        <div class="product">
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="productcat">
+                    <p>Product 3</p>
+                    <div class="productborder">
+                        <div class="product">
+
+                        </div>
+                        <div class="product">
+    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

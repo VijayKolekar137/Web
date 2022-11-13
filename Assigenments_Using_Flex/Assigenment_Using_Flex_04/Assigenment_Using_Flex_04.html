@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assigenment Using Flex 04</title>
+    </head>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Styling of header */
+
+        header
+        {
+            width: 100%;
+            background-color: black;
+            color: #fff;
+        }
+
+        header> .top
+        {
+            display: flex;
+            padding: 20px 50px;
+            justify-content: space-between;
+        }
+
+        header> .top> .mainheading
+        {
+            border: 2px solid black;
+        }
+
+        header> .top> .mainheading> p
+        {
+            font-size: 30px;
+        }
+
+        header> .top> .menubar
+        {
+            display: flex;
+            flex-direction: column;
+            padding-top: 35px;
+        }
+
+        header> .top> .menubar> ul
+        {
+            display: flex;
+            margin-block: 0;
+            margin-top: 5px;
+            padding-inline-start: 0;
+        }
+
+        p
+        {
+            margin-block: 0;
+        }
+
+        header> .top> .menubar> #navbar> a
+        {
+            text-decoration: none;
+            margin-top: 5px;
+            margin-right: 15px;
+        }
+
+        header> .somedis
+        {
+            text-align: center;
+            padding: 0 15%;
+            margin-top: 20px;
+        }
+
+        header> .registrationbtn
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header> .registrationbtn> button
+        {
+            font-size: 15px;
+            font-weight: bold;
+            background-color: #000;
+            color: #fff;
+            width: 15rem;
+            height: 3rem;
+            margin: 3% 0%;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+
+        /* Styling of section */
+
+        section
+        {
+            display: flex;
+            background-color: wheat;
+            padding: 5px 50px;
+            gap: 20px;
+        }
+
+        section> .items >.imgbox
+        {
+            border: 1px solid red;
+            width: 100%;
+            height: 270px;
+        }
+
+        section> .items >.imgbox> img
+        {
+            height: 100%;
+            width: 100%;
+        }
+
+        section> .items >.subhead
+        {
+            margin: 20px 0px;
+        }
+
+        /* Styling of footer */
+
+        footer
+        {
+            display: flex;
+            justify-content: space-between;
+            background-color: #000;
+        }
+
+        footer> .footerhead
+        {
+            color: #fff;
+        }
+
+        footer> .footmenubar
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 100px;
+        }
+
+        footer> .footmenubar> a
+        {
+            text-decoration: none;
+            color: #fff;
+        }
+
+    </style>
+    <body>
+        <header>
+            <div class="top">
+                <div class="mainheading">
+                    <p><span>Styles</span><br>Conference</p>
+                </div>
+                <div class="menubar">
+                    <p>Conference Date and time, Venue</p>
+                    <div id="navbar">
+                        <a href="">Home</a>
+                        <a href="">About Us</a>
+                        <a href="">Career</a>
+                        <a href="">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="somedis">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eum et omnis dolore facilis iure velit, officia vero cupiditate a at error quas minima nam laudantium enim deserunt! Esse, ullam in qui consequuntur harum expedita porro perspiciatis labore animi eligendi.</p>
+            </div>
+            
+            <div class="registrationbtn">
+                <button>Register Now</button>
+            </div>
+            
+        </header>
+        <section>
+                <div class="items">
+                    <h2>Speakers</h2>
+                    <div class="imgbox">
+                        <img src="https://plus.unsplash.com/premium_photo-1661299248692-d58e3b299b7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNwZWFrZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="img1">
+                    </div>
+                    <p class="subhead">World Class Speakers</p>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates dolorum, accusamus recusandae tenetur cumque veritatis accusantium odio hic quidem incidunt quia vero, non exercitationem. Qui iure porro molestias praesentium. Alias perferendis veritatis doloribus deserunt ullam maxime voluptatem repellat architecto, iste quisquam tenetur hic delectus aperiam voluptates beatae necessitatibus minima, ducimus veniam vitae? Nihil eius, adipisci alias aut accusamus veritatis quae deleniti saepe. A, maiores ex. Illo, numquam ad rem quaerat adipisci nobis sapiente modi blanditiis sint quibusdam reiciendis eos nisi architecto soluta quod non perspiciatis</p>
+                </div>
+                <div class="items">
+                    <h2>Schedule</h2>
+                    <div class="imgbox">
+                        <img src="https://images.unsplash.com/photo-1542626991-cbc4e32524cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHNjaGVkdWxlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="img2">
+                    </div>
+                    <p class="subhead">Three Inspiring Days</p>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates dolorum, accusamus recusandae tenetur cumque veritatis accusantium odio hic quidem incidunt quia vero, non exercitationem. Qui iure porro molestias praesentium. Alias perferendis veritatis doloribus deserunt ullam maxime voluptatem repellat architecto, iste quisquam tenetur hic delectus aperiam voluptates beatae necessitatibus minima, ducimus veniam vitae? Nihil eius, adipisci alias aut accusamus veritatis quae deleniti saepe. A, maiores ex. Illo, numquam ad rem quaerat adipisci nobis sapiente modi blanditiis sint quibusdam reiciendis eos nisi architecto soluta quod non perspiciatis</p>
+                </div>
+                <div class="items">
+                    <h2>Venue</h2>
+                    <div class="imgbox">
+                        <img src="https://images.unsplash.com/photo-1613067532651-7075a620c900?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dmVudWV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="img3">
+                    </div>
+                    <p class="subhead">The Venue</p>
+                    <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptates dolorum, accusamus recusandae tenetur cumque veritatis accusantium odio hic quidem incidunt quia vero, non exercitationem. Qui iure porro molestias praesentium. Alias perferendis veritatis doloribus deserunt ullam maxime voluptatem repellat architecto, iste quisquam tenetur hic delectus aperiam voluptates beatae necessitatibus minima, ducimus veniam vitae? Nihil eius, adipisci alias aut accusamus veritatis quae deleniti saepe. A, maiores ex. Illo, numquam ad rem quaerat adipisci nobis sapiente modi blanditiis sint quibusdam reiciendis eos nisi architecto soluta quod non perspiciatis</p>
+                </div>
+        </section>
+        <footer>
+            <div class="footerhead">
+                <h2><span>&copy;</span>Styles Conference</h2>
+            </div>
+            <div class="footmenubar">
+                <a href="">Home</a>
+                <a href="">About Us</a>
+                <a href="">Contact Us</a>
+                <a href="">Career</a> 
+            </div>
+        </footer> 
+    </body>
+</html>

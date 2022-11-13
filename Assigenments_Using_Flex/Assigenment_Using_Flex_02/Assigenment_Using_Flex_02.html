@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assigenment Using Flex 02</title>
+    </head>
+    <style>
+        body
+        {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(236, 209, 214);
+        }
+
+        /* Styling of header */
+
+        header
+        {
+            display: flex;
+            padding: 0px 25px;
+            justify-content: space-between;
+            background-color: rgb(119, 116, 116);
+        }
+
+        header> #logoimg
+        {
+            height: 50px;
+            width: 200px;
+            background-color: rgb(59, 53, 53);
+        }
+
+        header> #navbar
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header> #navbar> a
+        {
+            margin: 0px 20px;
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* Styling of content */
+
+        #content> .mainbg
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: 25rem;
+        }
+
+        #content> .mainbg> .contents> button
+        {
+            margin: 1vh 0vh;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: gray;
+            color: #fff;
+            font: 800;
+            cursor: pointer;
+        }
+
+        #content> .fourpara
+        {
+            display: flex;
+            flex-direction: column;
+        }
+
+        #content> .fourpara> .opara 
+        {
+            padding: 10px 0px 10px 10px;
+            background-color: gray;
+            color: #fff;
+        }
+        
+        #content> .fourpara> .middlepara
+        {
+            display: flex;
+            gap: 15px;
+        }
+
+        #content> .fourpara> .middlepara> .para
+        {
+            padding: 20px 10px;
+            background-color: rgb(155, 80, 80);
+        }
+
+
+    </style>
+    <body>
+        <header>
+            <div id="logoimg">
+                <img src="" alt="logo">
+            </div>
+            <div id="navbar">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Career</a>
+                <a href="#">Contact Us</a>
+            </div>
+        </header>
+        <section id="content">
+            <div class="mainbg">
+                <div class="contents">
+                    <h1>Welcome to the Beach</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.Fugiat provident iusto nostrum atque libero. Expedita.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            <div class="fourpara">
+                <div class="opara">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium perspiciatis, quam ab animi optio quod, nisi, explicabo architecto dignissimos error corporis laborum necessitatibus. Ut cum adipisci dolorem officia repudiandae voluptate esse laborum. Quaerat fuga incidunt neque, est error earum velit iste itaque. Iste maiores, at quo molestias porro quibusdam veniam quas adipisci vitae voluptatibus sit, et dolorum libero odio ipsa itaque ea iusto! Placeat, vitae! Praesentium perspiciatis esse accusamus ratione veritatis voluptatem sunt optio. Magni id temporibus nesciunt et ad quia. Aliquam deleniti odio, error ut asperiores rem quam tenetur soluta numquam? Adipisci eius saepe eaque? Temporibus, assumenda deserunt. Nostrum voluptatem, ea molestiae nam mollitia voluptatum corrupti nemo omnis quo autem atque ipsa quis eveniet eligendi exercitationem iure error perferendis quidem, sapiente odio in soluta? Recusandae dignissimos voluptatem, harum dolorum qui, voluptate facilis consectetur praesentium inventore rerum, numquam ut ipsa eveniet a fugit! Amet maxime ducimus, modi consequatur autem non est architecto reprehenderit animi hic nobis ad ab? Hic modi omnis ipsam quaerat delectus magni, officia sit placeat voluptas aliquid numquam quis nemo nulla aut fugit ab minima pariatur odio praesentium! Assumenda accusantium, error magnam doloribus labore nesciunt. Laudantium quia fuga quod blanditiis deleniti magnam eaque earum, accusantium esse in architecto velit possimus! Illo dolor adipisci quia reprehenderit placeat ut assumenda repellendus laudantium perferendis cupiditate, veniam quo iste. Vel temporibus mollitia fugiat hic esse, non accusamus illum libero, numquam rem nostrum quo amet, quasi incidunt ex eaque consequatur autem! Necessitatibus reprehenderit dolor esse eum repellat, qui obcaecati sequi nisi. Error aliquid a ducimus facilis placeat cum quidem dolores repellendus nihil, aspernatur accusantium nesciunt reiciendis sunt quis dignissimos magnam modi vitae ab accusamus fugit, omnis est? Impedit saepe sunt ut consequuntur magni nostrum eveniet quaerat quasi error, adipisci iusto quas ipsam harum aliquam sequi veritatis unde suscipit eos. Sint, dignissimos aliquam.</p>
+                </div>
+                <div class="middlepara">
+                    <div class="para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias ipsa non voluptas sapiente dolorem vitae fugit quos, eveniet necessitatibus pariatur architecto dolores ea obcaecati mollitia magni veniam, veritatis odio nisi nihil corrupti! Laboriosam fugiat in maxime, atque id sunt quas assumenda cupiditate, molestiae odio officia repellat debitis? Illo laudantium, dolorem ipsam voluptatum veritatis tempora necessitatibus id quod doloremque. Necessitatibus praesentium debitis commodi laudantium expedita quas velit blanditiis facere error veritatis ea, accusantium quia quae mollitia aliquam minima alias eos.</p>
+                    </div>
+                    <div class="para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias ipsa non voluptas sapiente dolorem vitae fugit quos, eveniet necessitatibus pariatur architecto dolores ea obcaecati mollitia magni veniam, veritatis odio nisi nihil corrupti! Laboriosam fugiat in maxime, atque id sunt quas assumenda cupiditate, molestiae odio officia repellat debitis? Illo laudantium, dolorem ipsam voluptatum veritatis tempora necessitatibus id quod doloremque. Necessitatibus praesentium debitis commodi laudantium expedita quas velit blanditiis facere error veritatis ea, accusantium quia quae mollitia aliquam minima alias eos.</p>
+                    </div>
+                </div>
+                <div class="opara">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium perspiciatis, quam ab animi optio quod, nisi, explicabo architecto dignissimos error corporis laborum necessitatibus. Ut cum adipisci dolorem officia repudiandae voluptate esse laborum. Quaerat fuga incidunt neque, est error earum velit iste itaque. Iste maiores, at quo molestias porro quibusdam veniam quas adipisci vitae voluptatibus sit, et dolorum libero odio ipsa itaque ea iusto! Placeat, vitae! Praesentium perspiciatis esse accusamus ratione veritatis voluptatem sunt optio. Magni id temporibus nesciunt et ad quia. Aliquam deleniti odio, error ut asperiores rem quam tenetur soluta numquam? Adipisci eius saepe eaque? Temporibus, assumenda deserunt. Nostrum voluptatem, ea molestiae nam mollitia voluptatum corrupti nemo omnis quo autem atque ipsa quis eveniet eligendi exercitationem iure error perferendis quidem, sapiente odio in soluta? Recusandae dignissimos voluptatem, harum dolorum qui, voluptate facilis consectetur praesentium inventore rerum, numquam ut ipsa eveniet a fugit! Amet maxime ducimus, modi consequatur autem non est architecto reprehenderit animi hic nobis ad ab? Hic modi omnis ipsam quaerat delectus magni, officia sit placeat voluptas aliquid numquam quis nemo nulla aut fugit ab minima pariatur odio praesentium! Assumenda accusantium, error magnam doloribus labore nesciunt. Laudantium quia fuga quod blanditiis deleniti magnam eaque earum, accusantium esse in architecto velit possimus! Illo dolor adipisci quia reprehenderit placeat ut assumenda repellendus laudantium perferendis cupiditate, veniam quo iste. Vel temporibus mollitia fugiat hic esse, non accusamus illum libero, numquam rem nostrum quo amet, quasi incidunt ex eaque consequatur autem! Necessitatibus reprehenderit dolor esse eum repellat, qui obcaecati sequi nisi. Error aliquid a ducimus facilis placeat cum quidem dolores repellendus nihil, aspernatur accusantium nesciunt reiciendis sunt quis dignissimos magnam modi vitae ab accusamus fugit, omnis est? Impedit saepe sunt ut consequuntur magni nostrum eveniet quaerat quasi error, adipisci iusto quas ipsam harum aliquam sequi veritatis unde suscipit eos. Sint, dignissimos aliquam.</p>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

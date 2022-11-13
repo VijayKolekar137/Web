@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assigenment Using Flex 01</title>
+    </head>
+    <style>
+        body
+        {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Styling of header */
+
+        header
+        {
+            border: 2px solid red;
+            display: flex;
+            padding: 0px 50px;
+            justify-content: space-between;
+            background-color: rgb(250, 244, 244);
+        }
+
+        header> #logo
+        {
+            border: 2px solid black;
+            text-align: center;
+            display: inline-block;
+            height: 50px;
+            width: 200px;
+            background-color: transparent;
+            border-radius: 25px;
+        }
+
+        header> #navbar
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header> #navbar> a
+        {
+            margin: 0px 25px;
+        }
+
+        section
+        {
+            border: 2px solid black;
+            display: flex;
+            padding: 0px 50px;
+            display: flex;
+            background-color: #4900A6;
+        }
+
+        /* Styling of leftsection */
+
+        #leftsection
+        {
+            border: 2px solid green;
+            width: 60%;
+            background-color: #242582;
+            margin-right: 10px;
+        }
+
+        #leftsection> .mainimgbox
+        {
+            border: 2px solid red;
+            margin-right: 100px;
+            height: 250px;
+        }
+
+        h4
+        {
+            text-align: center;
+        }
+
+        #leftsection> .events> table
+        {
+            width: 100%;
+        }
+
+        #leftsection> .quotes> h2
+        {
+            text-align: center;
+            border: 2px solid rebeccapurple;
+        }
+
+        /* Styling of right section */
+
+        #rightsection
+        {
+            border: 2px solid yellow;
+            width: 40%;
+            background-color: #242582;
+        }
+
+        #rightsection> .subimgbox
+        {
+            border: 2px solid black;
+            margin: 15px;
+            height: 225px;
+        }
+
+        #rightsection> .personaldel
+        {
+            border: 2px solid rebeccapurple;
+        }
+
+    </style>
+    <body>
+        <header>
+            <div id="logo">
+                <img src="./polymer_FILL0_wght700_GRAD200_opsz48.png" alt="logoimg">
+            </div>
+            <div id="navbar">
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Career</a>
+                <a href="#">Conact Us</a>
+            </div>
+        </header>
+        <section>
+            <div id="leftsection">
+                <div class="mainimgbox">
+                    <img src="" alt="">
+                </div>
+
+                <div id="tagling">
+                    <h4>“We're here to put a dent in the universe. Otherwise why else even be here?”</h4>
+                </div>
+
+                <div class="events">
+                    <table border="1px">
+                        <tr>
+                            <th class="dte">24 Feb. 1955</th>
+                            <td class="dis">Steve Jobs is born and adopted</td>
+                        </tr>
+                        <tr id="lowhi1"></tr>
+                        <tr>
+                            <th class="dte">1972</t>
+                            <td class="dis">Jobs enrolls in, drops out of Reed College</td>
+                        </tr>
+                        <tr id="lowhi2"></tr>
+                        <tr>
+                            <th class="dte">1976</th>
+                            <td class="dis">Apple Starts in Jobs's garage</td>
+                        </tr>
+                        <tr id="lowhi3"></tr>
+                        <tr>
+                            <th class="dte">1997</th>
+                            <td class="dis">Jobs becomes Apple CEO</td>
+                        </tr>
+                        <tr id="lowhi4"></tr>
+                        <tr>
+                            <th class="dte">05 Oct. 2011</th>
+                            <td class="dis">Jobs dies of pancreatic cancer</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="quotes">
+                    <h2>“Stay hungry, stay foolish”</h2>
+                </div>
+            </div>
+
+            <div id="rightsection">
+                <div class="subimgbox">
+                    <img src="" alt="">
+                </div>
+
+                <div class="personaldel">
+                    <table>
+                        <tr>
+                            <th>Born</th>
+                            <td>February 24, 1955
+                                San Francisco, California, U.S</td>
+                        </tr>
+                        <tr>
+                            <th>Died</th>
+                            <td>October 5, 2011 (aged 56)
+                                Palo Alto, California, U.S.</td>
+                        </tr>
+                        <tr>
+                            <th>Occupation</th>
+                            <td>Entrepreneur,industrial,designer,media proprietor,investor</td>
+                        </tr>
+                        <tr>
+                            <th>Parents</th>
+                            <td>Chrisann Brennan (1972–1977)</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+        </section>
+    </body>
+</html>
